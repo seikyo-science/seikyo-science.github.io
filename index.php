@@ -19,3 +19,5 @@ if($result == '') {
     header("Location: /jp/");
 }
 ?>
+
+<html></html>
