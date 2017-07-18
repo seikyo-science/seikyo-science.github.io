@@ -1,0 +1,123 @@
+#content{
+	margin: 0 15%;
+}
+
+.noscroll{
+	/*position: fixed;*/
+	overflow-y: scroll;
+	/*bottom:-50%;*/
+}
+
+.space{
+	display: block;
+	margin: 10%;
+}
+
+#titles{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#maintitle{
+	position: absolute;
+	top: 45%;
+	bottom: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	font-family: "chogokubosogothic", serif;
+	font-size: 100px;
+	vertical-align: middle;
+}
+
+.delay{
+	/*opacity:0.1;*/
+	position: relative;
+	filter: "blur(30px)";
+}
+
+/*#maintitle div{
+	position: relative;
+	float: left;
+	left: 0;
+	right: 0;
+	margin: auto;
+}*/
+
+#description{
+	font-size: 20px;
+}
+
+
+#content div h1{
+	font-family: "Majoram", Impact;
+}
+
+#works td{
+	padding: 10px;
+}
+
+#links a:before{
+
+	content: "\A";
+	white-space: pre;
+	
+}
+
+#links a{
+	font-family: sans-serif;
+	margin: 8px;
+	transition: 0.3s;
+}
+
+#links a:hover{
+	color: #888;
+}
+
+#contact p{
+	padding: 10px;
+	font-family: "chogokubosogothic", serif;
+	font-size: 16px;
+}
+
+#contact a{
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+#contact a:hover{
+	color: #7ad;
+}
+
+#hide{
+	font-family: "Majoram", Impact;
+	color: #999;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+#stop_animation{
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	/*transform: scale(0);*/
+	opacity: 0;
+    /*-webkit-border-radius: 50px;*/
+    /*-moz-border-radius: 50px;*/
+	background-color: #FF838A;
+}
+
+#stop_animation p{
+	font-family: "Majoram", Impact;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	top: 25%;
+	/*left: 25%;*/
+}
+

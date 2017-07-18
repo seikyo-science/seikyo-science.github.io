@@ -1,0 +1,11 @@
+/*fonts*/
+@font-face {
+	font-family: 'Majoram';
+	src:local('Majoram') ,
+		url('media/font/Majoram.otf');
+}
+@font-face {
+	font-family: 'chogokubosogothic';
+	src:local('chogokubosogothic') ,
+		url('media/font/chogokubosogothic_5.ttf');
+}

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: chogokubosogothic;
+    src: local('chogokubosogothic'), url("media/font/chogokubosogothic_5.ttf");
+}
+
+@font-face {
+    font-family: kaiso;
+    src: local('kaiso'), url("media/font/Kaiso-Makina-B.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    content: ""
+}
+
+:focus {
+    outline: 0
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+#copyright {
+    background-color: #dfe7f0;
+    padding: 5px
+}
+
+#copyright p {
+    font-size: 5px;
+    text-align: right;
+    padding-right: 5%;
+    font-family: chogokubosogothic, sans-serif
+}
+
+html {
+    overflow: scroll
+}
